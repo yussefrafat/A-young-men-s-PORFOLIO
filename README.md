@@ -3,7 +3,7 @@
 
 
 ## Pupose 
-A wweb porfolio
+A web porfolio
 
 ## Built With
 * HTML

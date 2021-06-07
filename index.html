@@ -14,16 +14,14 @@
             <h2><a href="#Home">Yussef Rafat</a></h2>
             <ul>
                 <li>
-                    <a href="#about-me">About Me</a>
+                    <a href="./index.html#about">About Me</a>
                 </li>
                 <li>
-                    <a href="projects">Projects</a>
+                    <a href="./index.html#project-box">Projects</a>
                 </li>
+               
                 <li>
-                    <a href="resume">Resume</a>
-                </li>
-                <li>
-                    <a href="contact-me">Contact Me</a>
+                    <a href="./index.html#contact-me">Contact Me</a>
                 </li>
                
             </ul>
@@ -59,12 +57,89 @@
                 </div>
             
             <div class="about-image">
-                <img src="./Assets/IMG/avatar.jpeg">
+                <img src="./Assets/IMG/avatar.jpeg" alt="avatar"> 
             </div>
             </div>
         </div>
     </section>
 
+    <!-- Projects Area -->
 
+<section id="project-box">
+    <div class="flex-row">
+    <h2 class="section-title primary-border">Projects</h2>
+    </div>
+    
+    <div class="boxes">
+    <article class="project-box">
+        <h3 class="project-name">Run Buddy</h3>
+
+        <p><a href="https://yussefrafat.github.io/Run-Buddy/">Here's the link!</a></p>
+        <img src="./Assets/IMG/RunbUDDY.png" alt="RunbUDDY" />
+    </article>
+
+    <article class="project-box">
+        <h3 class="project-name">Robots Gladiators</h3>
+        <p><a href="https://yussefrafat.github.io/robot-gladiators/">Here's the link</a></p>
+
+        <img src="./Assets/IMG/sf2ce.png" alt="Robots Gladiators">
+
+    </article>
+
+    <article class="project-box">
+        <h3 class="project-name">Coming Soon</h3>
+        <img src="./Assets/IMG/coming soon.png" alt="Coming Soon">
+
+    </article>
+
+    <article class="project-box">
+        <h3 class="project-name">Coming Soon</h3>
+        <img src="./Assets/IMG/coming soon.png" alt="Coming Soon">
+
+    </article>
+
+    </div>
+</section>
+
+<section id= "contact-me">
+<div class="container">
+
+    <div class="contact-page">
+        <h2>Contact Me</h2>
+    </div>
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+  </section>
+
+  <footer>
+    <h2>Made by Yussef Rafat.</h2>
+    <div>
+        
+        &copy; 2021 Yussef Rafat
+    </div>
+</footer>
+      
+
+   
 </body>
 </html>
